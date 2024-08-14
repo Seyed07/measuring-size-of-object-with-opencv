@@ -10,6 +10,10 @@ This project processes video input from a webcam or an image file to detect and 
 - **Real-time Processing**: Processes video frames in real-time or reads from an image file for analysis.
 - **Visualization**: Annotates and displays processed images with contours, angles, and distances.
 
+The processed image is displayed with detected contours, blobs, angles, and distances annotated.
+Multiple windows display various stages of image processing, including binary, Canny edge detection, and final annotated output.
+
+
 ## Requirements
 
 - Python 3.x
