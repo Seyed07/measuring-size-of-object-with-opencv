@@ -12,7 +12,7 @@ This project processes video input from a webcam or an image file to detect and 
 
 The processed image is displayed with detected contours, blobs, angles, and distances annotated.
 Multiple windows display various stages of image processing, including binary, Canny edge detection, and final annotated output.
-
+![Output Image](out_put.png)
 
 ## Requirements
 
