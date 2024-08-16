@@ -212,7 +212,6 @@ while True:
 
     cv2.putText(orig, "Detected: {}".format(NumCon),(10,50),cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0),2, cv2.LINE_AA)  
     cv2.imshow('camera(square detected)',orig)
-    cv2.imwrite("out_put.png",orig)
     cv2.imshow('camera(blob detected)',blob_image)
     cv2.imshow("Canny" , imgCanny)
     cv2.imshow("binary" , dilation)
